@@ -98,25 +98,6 @@ ansible-playbook -i hosts install/elk-client.yml --extra-vars 'elk_server=X.X.X.
 
 ![ELK](/image/elk6-5.png?raw=true "watch the magic")
 
-## 5.6 ELK/EFK (Deprecated)
-   - The 5.6 series of ELK/EFK is also available, to use this just use the 5.6 branch
-```
-git clone https://github.com/sadsfae/ansible-elk
-cd ansible-elk
-git checkout 5.6
-```
-## 2.4 ELK/EFK (Deprecated)
-   - The 2.4 series of ELK/EFK is also available, to use this just use the 2.4 branch
-```
-git clone https://github.com/sadsfae/ansible-elk
-cd ansible-elk
-git checkout 2.4
-```
-   - You can view a deployment video here:
-
-[![Ansible Elk](http://img.youtube.com/vi/6is6Ecxc2zE/0.jpg)](http://www.youtube.com/watch?v=6is6Ecxc2zE "Deploying ELK with Ansible")
-
-
 ## File Hierarchy
 ```
 .
